@@ -1,0 +1,176 @@
+/* LANDING PAGE */
+
+.headercolor {
+    background: #b92b27;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.landing-grid {
+    background: #833ab4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.avtarimage {
+    border-radius: 50%;
+    border: 2px solid rgb(17, 7, 7);
+
+}
+
+.banener-text {
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.banener-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+}
+
+.banener-text hr {
+    border-top: 2px solid white;
+    width: 50%;
+    margin: auto;
+
+}
+
+.banener-text p {
+    font-size: 20px;
+    color: white;
+    padding: 1em;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+.social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 10px;
+}
+
+/* PROJECT CSS*/
+
+.project-grid {
+    display: flex;
+
+}
+
+/* CONTACT PAGE CSS*/
+
+.contact-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    background: white;
+    color: black;
+    height: 100%;
+
+}
+
+.contact-grid h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-grid p {
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+.contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-list i {
+    font-size: 36px;
+    padding-right: 3rem;
+}
+
+/* RESUME PAGE CSS */
+
+.resume-right-col {
+
+    color: rgb(14, 3, 3);
+}
+
+.resume-left-col {
+    color: aliceblue;
+    background-color: #9b5b50;
+
+    border-style: outset;
+}
+
+@media (max-width: 839px) and (min-width: 480px) {
+    width: calc(50% - -278px);
+}
+
+
+
+.resume-grid {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding: 0px;
+
+}
+
+.projectlink {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.profilepic {
+    border-right: 5px solid rgb(153, 67, 67);
+    margin-right: 10px;
+
+    height: 450px;
+
+}
+
+h3 {
+    background-color: #9b5b50;
+    color: aliceblue;
+    border-style: outset;
+}
+
+.carousel-inner .carousel-item img {
+    height: 300px;
+    width: 550px
+}
