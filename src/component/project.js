@@ -65,7 +65,7 @@ class Project extends Component {
               </div>
             </div>
             <div className=" text-justify col-md-6 order-2 order-md-1">
-              <h3 className="text-center underline">
+              <h3 className="text-center underline mt-0">
                 <u>Portfolio Project</u>
               </h3>
               <ul>
@@ -151,7 +151,7 @@ class Project extends Component {
               </div>
             </div>
             <div className="text-justify col-md-6 order-2 order-md-1">
-              <h3 className="text-center underline">
+              <h3 className="text-center underline mt-0">
                 <u>Youtube API Project</u>
               </h3>
               <ul>
@@ -273,7 +273,7 @@ class Project extends Component {
               </div>
             </div>
             <div className="text-justify col-md-6 order-2 order-md-1">
-              <h3 className="text-center underline">
+              <h3 className="text-center underline mt-0">
                 <u>Project Add & Notification</u>
               </h3>
               <ul>
@@ -386,7 +386,7 @@ class Project extends Component {
               </div>
             </div>
             <div className="text-justify col-md-6 order-2 order-md-1">
-              <h3 className="text-center underline">
+              <h3 className="text-center underline mt-0">
                 <u>Wether App</u>
               </h3>
               <ul>
@@ -496,7 +496,7 @@ class Project extends Component {
               </div>
             </div>
             <div className="text-justify col-md-6 order-2 order-md-1">
-              <h3 className="text-center underline">
+              <h3 className="text-center underline mt-0">
                 <u>Food Website Landing Page</u>
               </h3>
               <ul>
@@ -602,7 +602,7 @@ class Project extends Component {
               </div>
             </div>
             <div className="text-justify col-md-6 order-2 order-md-1">
-              <h3 className="text-center underline">
+              <h3 className="text-center underline mt-0">
                 <u>Unplash Clone</u>
               </h3>
               <ul>
@@ -638,7 +638,7 @@ class Project extends Component {
               </video>
             </div>
             <div className="text-justify col-md-6 order-2 order-md-1">
-              <h3 className="text-center underline">
+              <h3 className="text-center underline mt-0">
                 <u>Web Socket Project</u>
               </h3>
               <ul>
@@ -660,6 +660,20 @@ class Project extends Component {
                   View Project
                 </a>
               </div>
+            </div>
+          </div>
+          <div className="row pt-2 mt-4 bg-danger">
+            <div className="social-links">
+              <h4 className="align-self-center text-white font-weight-bolder">
+                For more Projects Visit Github :
+              </h4>
+              <a
+                href="https://github.com/Darjiankit"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github-square" aria-hidden="true" />
+              </a>
             </div>
           </div>
         </div>

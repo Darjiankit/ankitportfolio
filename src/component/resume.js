@@ -21,7 +21,7 @@ class Resume extends Component {
 
             <hr className=" my-1" />
             <p style={{ textAlign: "justify" }}>
-              Self-motivated 2+ years of practical experienced IT professional
+              Self-motivated 4+ years of practical experienced IT professional
               looking for the opportunity as a Software Developer Position with
               good knowledge and proficiency in JavaScript, HTML, CSS, and
               Mobile responsive web and App development, as well as strong
@@ -206,7 +206,44 @@ class Resume extends Component {
             <h3 className=" text-center my-0 p-2">
               <i className="fas fa-briefcase"></i> Professional Experience
             </h3>
+            <table className="table table-borderless text-justify">
+              <thead>
+                <tr>
+                  <th
+                    scope="colspan-2"
+                    className="d-flex align-self-start pr-0"
+                  >
+                  09/2020 – Present
+                  </th>
+                  <th scope="col">
+                    <h5 className="font-weight-bold m-0 ml-1">
+                    Field Service Technician 
+                    </h5>
 
+                    <p className="font-weight-bold mb-0 ml-1">
+                    NCR Corporation, Toronto
+                    </p>
+                    <ul className="pl-0 mb-0 ml-4">
+                      <li>
+                      Service electromechanical equipment like ATMs and self-checkout systems within an assigned <br />territory—with the goal of keeping our customers completely assured and satisfied.
+                      </li>
+                      <li>
+                      Oversee hardware maintenance, installation, network management, multi-vendor maintenance,and <br />software support
+                      </li>
+                      <li>Build great working relationships among colleagues and customers based on our customer Service Level <br />Agreements (SLAs). When issues come up, your job is to respond them by either handling them, <br /> or by pulling in the proper associate, team member, or territory manager who can
+                       
+                        
+                      </li>
+                      <li>
+                      Perform maintenance repair and system overhauls as a matter of routine (like modularswaps and<br />  unit replacements). You’ll surely always be on the lookout for preventative measures you can take <br /> to correct any and all technical problems before they happen
+                        
+                      </li>
+                     
+                    </ul>
+                  </th>
+                </tr>
+              </thead>
+            </table>
             <table className="table table-borderless text-justify">
               <thead>
                 <tr>
@@ -262,6 +299,7 @@ class Resume extends Component {
                 </tr>
               </thead>
             </table>
+            
             <table className="table table-borderless text-justify">
               <thead>
                 <tr>
